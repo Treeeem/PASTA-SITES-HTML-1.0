@@ -5,16 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Documento</title>
 </head>
-<body style="background-color:rgb(61, 61, 61);">
+<body style="background-color:rgb(235, 235, 235);">
 
 <div>
 <h1 id="titulo">Formulário de cadastro</h1>
-<p id="subtitulo">Assinale de acordo com suas informações</p>
+<p id="subtitulo">Assinale de acordo com suas informações:</p>
 <br>
 
 <fieldset class="grupo">
     <div>
-        <label>Data:</label>
+        <label>Data do cadastro:</label>
     <input type="date" name="data" id="data" required>
     </div>
 </fieldset>
@@ -41,26 +41,31 @@
 
         <div>
             <label>Nome:</label>
+            <br>
 <input type="text" name="nome" id="nome" required>
         </div>
 
         <div>
             <label>Sobrenome:</label>
+            <br>
 <input type="text" name="sobrenome" id="sobrenome" required>
         </div>
 
         <div>
             <label>Endereço:</label>
+            <br>
 <input type="text" name="endereço" id="endereço" required>
         </div>
 
         <div>
             <label>Complemento:</label>
+            <br>
 <input type="text" name="complemento" id="complemento" required>
         </div>
 
         <div>
             <label>Cidade:</label>
+            <br>
 <input type="list" name="cidade" id="cidade" required>
 
 <datalist id="cidade">
@@ -98,6 +103,7 @@
 
         <div>
             <label>Estado:</label>
+            <br>
 <select id="estado">
     <option selected disabled value=""></option>
 <option>Santa Catarina</option>
@@ -133,23 +139,28 @@
 
         <div>
             <label>CEP:</label>
+            <br>
 <input type="text" name="CEP" id="CEP" required>
         </div>
 
         <div>
             <label>Número de telefone:</label>
+            <br>
 <input type="text" name="número" id="número" required>
         </div>
 
     <div>
 <label>Gênero:</label>
+<br>
 <label>
     <input type="radio" name="gênero" value="masculino">Masculino
 </label>
         <label>
+            <br>
             <input type="radio" name="gênero" value="feminino">Feminino
         </label>
                 <label>
+                    <br>
                     <input type="radio" name="gênero" value="prefiro não informar">Prefiro não informar
                 </label>
                     <div>
@@ -163,10 +174,13 @@
     <p>Selecione o curso desejado:</p>
 <input type="checkbox" id="ADS" name="ADS" value="ADS">
 <label for="curso">ADS</label>
+<br>
 <input type="checkbox" id="Jogos" name="Jogos" value="Jogos">
 <label for="curso">Jogos</label>
+<br>
 <input type="checkbox" id="Gestão de TI" name="Gestão de TI" value="Gestão de TI">
 <label for="curso">Gestão de TI</label>
+<br>
 <input type="checkbox" id="Banco de Dados" name="Banco de Dados" value="Banco de Dados">
 <label for="curso">Banco de Dados</label>
 </div>
@@ -178,9 +192,11 @@
     <label>
         <input type="radio" name="modelo" value="presencial">Presencial
     </label>
+    <br>
             <label>
                 <input type="radio" name="modelo" value="Semi presencial">Semi presencial
             </label>
+            <br>
                     <label>
                         <input type="radio" name="modelo" value="EAD">EAD
                     </label>

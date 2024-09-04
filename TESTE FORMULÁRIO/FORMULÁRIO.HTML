@@ -3,10 +3,194 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Documento</title>
 </head>
-<body>
-    <h1 style="font-size:300%;color: #000000;">Vamo jogar um ultimate chicken horse, tropa?</h1>
-    <body style="background-color:grey;">
+<body style="background-color:rgb(61, 61, 61);">
+
+<div>
+<h1 id="titulo">Formulário de cadastro</h1>
+<p id="subtitulo">Assinale de acordo com suas informações</p>
+<br>
+
+<fieldset class="grupo">
+    <div>
+        <label>Data:</label>
+    <input type="date" name="data" id="data" required>
+    </div>
+</fieldset>
+<br>
+<fieldset>
+    <h1>Dados de acesso:</h1>
+<div>
+    <label>Email:</label>
+<input type="email" name="email" id="email" required>
+</div>
+
+<div>
+    <label>Senha:</label>
+<input type="text" name="senha" id="senha" required>
+</div>
+
+</fieldset>
+<br>
+</div>
+
+<form>
+    <fieldset class="grupo">
+        <h1>Informações pessoais:</h1>
+
+        <div>
+            <label>Nome:</label>
+<input type="text" name="nome" id="nome" required>
+        </div>
+
+        <div>
+            <label>Sobrenome:</label>
+<input type="text" name="sobrenome" id="sobrenome" required>
+        </div>
+
+        <div>
+            <label>Endereço:</label>
+<input type="text" name="endereço" id="endereço" required>
+        </div>
+
+        <div>
+            <label>Complemento:</label>
+<input type="text" name="complemento" id="complemento" required>
+        </div>
+
+        <div>
+            <label>Cidade:</label>
+<input type="list" name="cidade" id="cidade" required>
+
+<datalist id="cidade">
+    <option value="Florianópolis"><option>
+    <option value="Porto Alegre"><option>
+    <option value="Curitiba"><option>
+    <option value="São Paulo"><option>
+    <option value="Sorocaba"><option>
+    <option value="Rio de Janeiro"><option>
+    <option value="Belo Horizonte"><option>
+    <option value="Vitória"><option>
+    <option value="Goiânia"><option>
+    <option value="Cuiabá"><option>
+    <option value="Campo Grande"><option>
+    <option value="Brasília"><option>
+    <option value="Palmas"><option>
+    <option value="Belém"><option>
+    <option value="Boa Vista"><option>
+    <option value="Rio Branco"><option>
+    <option value="Porto Velho"><option>
+    <option value="Macapá"><option>
+    <option value="Manaus"><option>
+    <option value="Teresina"><option>
+    <option value="João Pessoa"><option>
+    <option value="São Luis"><option>
+    <option value="Maceió"><option>
+    <option value="Aracaju"><option>
+    <option value="Natal"><option>
+    <option value="Fortaleza"><option>
+    <option value="Salvador"><option>
+    <option value="Recife"><option>              
+  </datalist>
+
+        </div>
+
+        <div>
+            <label>Estado:</label>
+<select id="estado">
+    <option selected disabled value=""></option>
+<option>Santa Catarina</option>
+<option>Rio Grande do Sul</option>
+<option>Paraná</option>
+<option>São Paulo</option>
+<option>Rio de Janeiro</option>
+<option>Minas Gerais</option>
+<option>Espírito Santo</option>
+<option>Mato Grosso do Sul</option>
+<option>Mato Grosso</option>
+<option>Goiás</option>
+<option>Distrito Federal</option>
+<option>Sergipe
+<option>Rio Grande do Norte</option>
+<option>Piauí</option>
+<option>Pernanbuco</option>
+<option>Paraíba</option>
+<option>Maranhão</option>
+<option>Ceará</option>
+<option>Bahia</option>
+<option>Alagoas</option>
+<option>Tocantins</option>
+<option>Roraima</option>
+<option>Rondônia</option>
+<option>Pará</option>
+<option>Amazonas</option>
+<option>Amapá</option>
+<option>Acre</option>
+</select>
+
+        </div>
+
+        <div>
+            <label>CEP:</label>
+<input type="text" name="CEP" id="CEP" required>
+        </div>
+
+        <div>
+            <label>Número de telefone:</label>
+<input type="text" name="número" id="número" required>
+        </div>
+
+    <div>
+<label>Gênero:</label>
+<label>
+    <input type="radio" name="gênero" value="masculino">Masculino
+</label>
+        <label>
+            <input type="radio" name="gênero" value="feminino">Feminino
+        </label>
+                <label>
+                    <input type="radio" name="gênero" value="prefiro não informar">Prefiro não informar
+                </label>
+                    <div>
+
+                    </fieldset>
+                    <br>
+
+                <fieldset class="grupo">
+<div>
+    <h1>Sobre o curso:</h1>
+    <p>Selecione o curso desejado:</p>
+<input type="checkbox" id="ADS" name="ADS" value="ADS">
+<label for="curso">ADS</label>
+<input type="checkbox" id="Jogos" name="Jogos" value="Jogos">
+<label for="curso">Jogos</label>
+<input type="checkbox" id="Gestão de TI" name="Gestão de TI" value="Gestão de TI">
+<label for="curso">Gestão de TI</label>
+<input type="checkbox" id="Banco de Dados" name="Banco de Dados" value="Banco de Dados">
+<label for="curso">Banco de Dados</label>
+</div>
+
+<br>
+
+<div>
+    <p>Selecione o modelo desejado:</p>
+    <label>
+        <input type="radio" name="modelo" value="presencial">Presencial
+    </label>
+            <label>
+                <input type="radio" name="modelo" value="Semi presencial">Semi presencial
+            </label>
+                    <label>
+                        <input type="radio" name="modelo" value="EAD">EAD
+                    </label>
+                </div>
+
+                </fieldset>
+                <br>
+
+                <button type="submit">Enviar</button>
+</form>
+
 </body>
 </html>
